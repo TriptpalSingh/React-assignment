@@ -1,0 +1,8 @@
+.addtask-outer{
+    position: absolute;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+}

@@ -1,0 +1,85 @@
+.list-outer-div{
+    color: var(--my-blue);
+    width: 200px;
+    height: 100%;
+    border: solid 1px var(--my-blue);
+    margin: 30px;
+    padding: 10px;
+}
+
+
+.list-title-div{
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+}
+
+
+.list-dots{
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+.list-add-task-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.1s ease-out;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.list-add-task-div:hover{
+    box-shadow: 0px 0px 5px var(--my-blue) inset;
+}
+
+.list-add-task-circle{
+    width: 30px;
+    height: 30px;
+    border: solid 1px var(--my-blue);
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: var(--my-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-add-task-circle img{
+    width: 20px;
+
+}
+
+.task-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 5px;
+    /* border: solid 1px black; */
+
+}
+
+.task-circle{
+    width: 30px;
+    height: 30px;
+    border: solid 1px var(--my-blue);
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* .task-name{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2em;
+} */

@@ -35,7 +35,7 @@ function TaskMaster() {
             </>
           ) :
           (
-            <div className='message-div'>please log-in to display data.</div>
+            <div className='message-div'>please log-in to display data from the login option.</div>
           )
         }
     </>
